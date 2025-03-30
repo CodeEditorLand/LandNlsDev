@@ -1,19 +1,27 @@
 {
 	"compilerOptions": {
-		"target": "es2017",
-		"module": "commonjs",
-		"lib": ["es2017"],
-		"moduleResolution": "node",
-		"sourceMap": true,
-		"inlineSources": false,
+		"baseUrl": "./",
 		"declaration": true,
-		"stripInternal": true,
-		"strict": true,
+		"inlineSources": false,
+		"lib": [
+			"es2017"
+		],
+		"module": "commonjs",
+		"moduleResolution": "node",
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"outDir": "../lib"
-	}
+		"outDir": "Target",
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"stripInternal": true,
+		"target": "es2017"
+	},
+	"extends": "@playform/build/tsconfig",
+	"include": [
+		"src"
+	]
 }
