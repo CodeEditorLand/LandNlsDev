@@ -46,7 +46,7 @@
 		"yargs": "17.7.2"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@types/ansi-colors": "3.2.6",
 		"@types/clone": "2.1.4",
 		"@types/fancy-log": "2.0.2",
