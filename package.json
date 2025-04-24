@@ -37,7 +37,7 @@
 		"clone": "2.1.2",
 		"event-stream": "4.0.1",
 		"fancy-log": "2.0.0",
-		"glob": "11.0.1",
+		"glob": "11.0.2",
 		"iconv-lite": "0.6.3",
 		"is": "3.3.0",
 		"source-map": "0.7.4",
